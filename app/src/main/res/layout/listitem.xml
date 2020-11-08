@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 2020. Timothy Jonker @ NVCC
+  ~
+  ~ Author: Timothy Jonker
+  ~ Affiliation: NVCC
+  ~
+  ~ Terms of Use:
+  ~ This application is part of the term projects of the course ITP226 of Fall 2020.  It is not to released to any third party, whether with or without the permission of the author.  Any unauthorized use of this application may be subject to prosecution.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:id="@+id/itemLayout">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/textView"
+        android:text=""
+        android:layout_margin="10dp"
+        android:textColor="@color/songText"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/rounded_corners_list"
+        android:padding="10dp" />
+</LinearLayout>
