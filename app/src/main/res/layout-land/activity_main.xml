@@ -13,33 +13,35 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="horizontal"
     tools:context=".MainActivity"
     android:gravity="center"
     android:background="@color/mainBackground">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:orientation="horizontal"
         android:background="@color/background"
-        android:layout_gravity="center"
+        android:layout_gravity="center_vertical"
         android:padding="10dp">
 
         <LinearLayout
-            android:background="@drawable/rounded_corners_audio"
             android:id="@+id/fragmentHolder"
             android:layout_width="340dp"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             android:orientation="horizontal"
             android:layout_margin="10dp"
-            android:layout_gravity="center" />
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_corners_audio" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@color/background"/>
+
     </LinearLayout>
 </LinearLayout>

@@ -29,7 +29,6 @@
         android:padding="10dp">
 
         <LinearLayout
-
             android:id="@+id/fragmentHolder"
             android:layout_width="340dp"
             android:layout_height="300dp"
@@ -41,6 +40,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="@color/background"/>
     </LinearLayout>
 </LinearLayout>

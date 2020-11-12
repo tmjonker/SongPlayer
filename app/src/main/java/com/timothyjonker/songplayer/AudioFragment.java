@@ -76,7 +76,6 @@ public class AudioFragment extends Fragment {
         });
         audioText = (TextView) view.findViewById(R.id.audioText);
 
-
         updateControlStatus();
         return view;
     }
